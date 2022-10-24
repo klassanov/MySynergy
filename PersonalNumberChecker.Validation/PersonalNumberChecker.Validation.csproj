@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PersonalNumberChecker.Extensions\PersonalNumberChecker.Extensions.csproj" />
+    <ProjectReference Include="..\PersonalNumberChecker.Interfaces\PersonalNumberChecker.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
